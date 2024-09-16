@@ -1,0 +1,25 @@
+Cadastrar pedido:
+
+{
+  "customerName": "Maria do Rosário",
+  "phone": "+5521993001313",
+  "address": "Av. Paulista, nº 13",
+  "dish": {
+    "id": 6 // ID do produto
+  }
+}
+
+Atualizar status do pedido:
+
+{
+  "status": "Entregue"
+}
+
+Excluir pedido:
+
+
+Listar pedidos com status em preparação:
+http://127.0.0.1:8080/orders/status/Em%20preparacao
+
+Listar pedidos que sairam para entrega:
+http://127.0.0.1:8080/orders/status/Saiu%20para%20entrega
