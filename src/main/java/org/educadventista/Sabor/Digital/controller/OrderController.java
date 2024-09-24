@@ -21,12 +21,12 @@ public class OrderController {
         return orderService.findAll();
     }
 
-    @GetMapping("/api/{id}")
+    @GetMapping("/{id}")
     public Order getOrderById(@PathVariable Long id) {
         return orderService.findById(id);
     }
 
-    @GetMapping("/api/status/{status}")
+    @GetMapping("/status/{status}")
     public List<Order> getOrdersByStatus(@PathVariable String status) {
         return orderService.findOrdersByStatus(status);
     }
@@ -36,18 +36,18 @@ public class OrderController {
         return orderService.create(order);
     }
 
-    @PutMapping("/api/{id}")
+    @PutMapping("/{id}")
     public Order updateOrder(@PathVariable Long id, @RequestBody Order order) {
         return orderService.update(id, order);
     }
 
-    @DeleteMapping("/api/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteOrder(@PathVariable Long id) {
         orderService.delete(id);
         return ResponseEntity.noContent().build();
     }
 
-    @PatchMapping("/api/{id}/status")
+    @PatchMapping("/{id}/status")
     public Order updateOrderStatus(@PathVariable Long orderId, @RequestParam Long statusId) {
         return orderService.updateStatusById(orderId, statusId);
     }
