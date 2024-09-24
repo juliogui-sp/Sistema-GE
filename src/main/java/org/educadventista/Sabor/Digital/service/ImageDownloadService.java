@@ -17,9 +17,9 @@ public class ImageDownloadService {
 
     public String downloadImage(String imageUrl) throws IOException {
         // Verifique se o URL não está vazio ou nulo
-        if (imageUrl == null || imageUrl.isEmpty()) {
+        /*if (imageUrl == null || imageUrl.isEmpty()) {
             throw new IllegalArgumentException("A URL da imagem não pode ser vazia.");
-        }
+        }*/
 
         // Crie um nome de arquivo único baseado no timestamp
         String fileName = System.currentTimeMillis() + "-" + imageUrl.substring(imageUrl.lastIndexOf("/") + 1);

@@ -38,12 +38,21 @@ public class DishService {
 
     public Dish update(Long id, Dish dishDetails) {
         Dish dish = findById(id);
-        dish.setName(dishDetails.getName());
-        dish.setDescription(dishDetails.getDescription());
-        dish.setPrice(dishDetails.getPrice());
 
-        // Atualize a imagem somente se a URL da imagem tiver mudado
-        if (!dish.getUrlImage().equals(dishDetails.getUrlImage())) {
+        // Atualizar apenas os atributos especificados na requisição, se não forem nulos
+        if (dishDetails.getName() != null) {
+            dish.setName(dishDetails.getName());
+        }
+        if (dishDetails.getDescription() != null) {
+            dish.setDescription(dishDetails.getDescription());
+        }
+        if (dishDetails.getPrice() != null) {
+            dish.setPrice(dishDetails.getPrice());
+        }
+        dish.setCategoria(dishDetails.getCategoria()); // Atualizar a categoria
+
+        // Update the image only if the URL has changed (commented out for now)
+        /*if (!dish.getUrlImage().equals(dishDetails.getUrlImage())) {
             try {
                 String storedImagePath = imageDownloadService.downloadImage(dishDetails.getUrlImage());
                 dish.setUrlImage(storedImagePath);
@@ -51,7 +60,7 @@ public class DishService {
                 e.printStackTrace();
                 // Lidar com exceções conforme necessário
             }
-        }
+        }*/
 
         return dishRepository.save(dish);
     }

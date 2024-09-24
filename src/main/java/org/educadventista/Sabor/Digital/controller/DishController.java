@@ -9,7 +9,7 @@ import org.educadventista.Sabor.Digital.service.DishService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/dishes")
+@RequestMapping("/api/dishes")
 @CrossOrigin(origins = "http://127.0.0.1:4200")
 public class DishController {
 

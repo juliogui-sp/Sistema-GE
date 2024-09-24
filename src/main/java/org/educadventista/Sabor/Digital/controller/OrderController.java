@@ -9,7 +9,7 @@ import org.educadventista.Sabor.Digital.service.OrderService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/api/orders")
 @CrossOrigin(origins = "http://127.0.0.1:4200")
 public class OrderController {
 
@@ -21,12 +21,12 @@ public class OrderController {
         return orderService.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/api/{id}")
     public Order getOrderById(@PathVariable Long id) {
         return orderService.findById(id);
     }
 
-    @GetMapping("/status/{status}")
+    @GetMapping("/api/status/{status}")
     public List<Order> getOrdersByStatus(@PathVariable String status) {
         return orderService.findOrdersByStatus(status);
     }
@@ -36,20 +36,19 @@ public class OrderController {
         return orderService.create(order);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/api/{id}")
     public Order updateOrder(@PathVariable Long id, @RequestBody Order order) {
         return orderService.update(id, order);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/api/{id}")
     public ResponseEntity<Void> deleteOrder(@PathVariable Long id) {
         orderService.delete(id);
         return ResponseEntity.noContent().build();
     }
 
-    // Endpoint para atualizar o status do pedido
-    @PatchMapping("/{id}/status")
-    public Order updateOrderStatus(@PathVariable Long id, @RequestParam String status) {
-        return orderService.updateStatus(id, status);
+    @PatchMapping("/api/{id}/status")
+    public Order updateOrderStatus(@PathVariable Long orderId, @RequestParam Long statusId) {
+        return orderService.updateStatusById(orderId, statusId);
     }
 }

@@ -3,6 +3,8 @@ package org.educadventista.Sabor.Digital.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "orders")
 @Data
@@ -12,11 +14,9 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String status;
-
-    public String getStatus() {
-        return status;
-    }
+    @ManyToOne
+    @JoinColumn(name = "status_id", referencedColumnName = "id")
+    private OrderStatus status;
 
     private String orderName;
 
@@ -39,7 +39,4 @@ public class Order {
         }
     }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
 }
