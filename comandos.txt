@@ -34,10 +34,12 @@ Cadastrar pedido:
 Listar os status disponíveis para atribuir aos pedidos:
 http://localhost:8080/api/order-statuses
 
-Atualizar status do pedido com GET {id}:
+Atualizar status do pedido com PUT {id}:
 
 {
-  "status": "Em preparação"
+  "status": {
+    "id":
+  }
 }
 
 Listar pedidos com status em preparação:
