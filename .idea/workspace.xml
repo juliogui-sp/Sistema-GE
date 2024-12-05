@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Atualização do comando de atualizar status do pedido">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/estoque.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/SistemaGEApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/entity/Produto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/repository/ProdutoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/service/ProdutoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comandos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/SaborDigitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/SistemaGEApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/CategoriaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/DishController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/OrderStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/dto/DishDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/dto/OrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Categoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Dish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/CategoriaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/DishRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/OrderStatusRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/CategoriaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/DishService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/ImageDownloadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/OrderStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1725459236515-323683-original.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1725460655976-54349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pizza-brigadeiro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pizza-frangocatupiry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ibeus/Comanda/Digital/ComandaDigitalApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;juliogui-sp&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juliogui-sp/SistemaGEApplication.java.git&quot;,
+    &quot;accountId&quot;: &quot;f4d9197a-a9a6-486a-ac5a-476f9fffb1ec&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ki0giop4VunsgwwKouaiDAl6FM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ComandaDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SaborDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaGEApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Comanda-Digital [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-Estoque [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Julio/Documents/UNASP/4º Semestre/Programação Orientada a Objetos/Sistema-GE&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.educadventista.Sistema.GE.entity" />
+      <recent name="org.educadventista.Sabor.Digital.controller" />
+      <recent name="org.educadventista.Sabor.Digital.service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SistemaGEApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.educadventista.Sistema.GE.SistemaGEApplication" />
+      <module name="Sistema-GE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sabor.Digital.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sistema.GE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SistemaGEApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="" />
+      <created>1723751204818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723751204818</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- Criado categorias dos itens por IDs, sendo Lanches (ID 1), Sobremesas (ID 2) e Bebidas (ID 3).&#10;- Criado status do pedido por IDs, sendo Criado (ID 1), Em preparo (ID 2), Pronto (ID 3), Em entrega (ID 4), Entregue (ID 5) e Cancelado (ID 6).">
+      <option name="closed" value="true" />
+      <created>1727148672322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727148672322</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Criado categorias dos itens por IDs, sendo Lanches (ID 1), Sobremesas (ID 2) e Bebidas (ID 3).&#10;- Criado status do pedido por IDs, sendo Criado (ID 1), Em preparo (ID 2), Pronto (ID 3), Em entrega (ID 4), Entregue (ID 5) e Cancelado (ID 6).">
+      <option name="closed" value="true" />
+      <created>1727219197702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727219197702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Atualização do comando de atualizar status do pedido">
+      <option name="closed" value="true" />
+      <created>1727223135752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727223135752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Criado categorias dos itens por IDs, sendo Lanches (ID 1), Sobremesas (ID 2) e Bebidas (ID 3).&#10;- Criado status do pedido por IDs, sendo Criado (ID 1), Em preparo (ID 2), Pronto (ID 3), Em entrega (ID 4), Entregue (ID 5) e Cancelado (ID 6)." />
+    <MESSAGE value="Atualização do comando de atualizar status do pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização do comando de atualizar status do pedido" />
+  </component>
+</project>

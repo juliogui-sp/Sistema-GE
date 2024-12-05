@@ -1,0 +1,181 @@
+2024-12-05T12:47:02.910-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Starting SistemaGEApplication using Java 22.0.2 with PID 12812 (C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\target\classes started by Julio in C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE)
+2024-12-05T12:47:02.945-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-05T12:47:03.092-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-05T12:47:03.093-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-05T12:47:05.822-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05T12:47:06.018-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
+2024-12-05T12:47:07.926-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-05T12:47:07.971-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05T12:47:07.972-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05T12:47:08.150-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05T12:47:08.151-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5055 ms
+2024-12-05T12:47:08.739-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-05T12:47:09.058-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-05T12:47:09.198-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-05T12:47:10.141-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-05T12:47:10.230-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05T12:47:11.129-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35c69cf
+2024-12-05T12:47:11.135-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05T12:47:11.318-03:00  WARN 12812 --- [Sistema-GE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-05T12:47:13.447-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-05T12:47:13.564-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:47:14.796-03:00  WARN 12812 --- [Sistema-GE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05T12:47:15.173-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-12-05T12:47:15.557-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-05T12:47:15.650-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-05T12:47:15.777-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-05T12:47:16.305-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-05T12:47:16.401-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-05T12:47:16.431-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Started SistemaGEApplication in 14.954 seconds (process running for 16.431)
+2024-12-05T12:48:02.932-03:00  INFO 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05T12:48:02.933-03:00  INFO 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05T12:48:02.933-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-12-05T12:48:02.933-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-12-05T12:48:02.933-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-12-05T12:48:02.935-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@51cc9c14
+2024-12-05T12:48:02.936-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@656be224
+2024-12-05T12:48:02.936-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-05T12:48:02.937-03:00  INFO 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-05T12:48:02.959-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-12-05T12:48:02.976-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-05T12:48:02.997-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-12-05T12:48:03.006-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2024-12-05T12:48:03.009-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-12-05T12:48:03.022-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-12-05T12:48:03.029-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-05T12:48:03.088-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-05T12:48:03.102-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-12-05T12:48:03.259-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-12-05T12:48:03.266-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-05T12:48:03.273-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-12-05T12:48:03.274-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-12-05T12:48:03.275-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-12-05T12:48:03.276-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-12-05T12:48:03.278-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-05T12:48:03.327-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-12-05T12:48:03.332-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Dec 05 12:48:03 BRT 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-12-05T12:48:03.427-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-12-05T12:48:07.018-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-12-05T12:48:07.020-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.044-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.086-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2024-12-05T12:48:07.087-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2024-12-05T12:48:07.089-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.089-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.091-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2024-12-05T12:48:07.092-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2024-12-05T12:48:07.092-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.093-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.094-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-12-05T12:48:07.095-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:48:07.095-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.103-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.118-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.130-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.150-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.451-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-12-05T12:48:07.452-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-12-05T12:48:07.457-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-12-05T12:48:07.459-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://127.0.0.1:8080/swagger-ui/oauth2-re (truncated)...]
+2024-12-05T12:48:07.460-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:07.500-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-12-05T12:48:07.502-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-12-05T12:48:08.008-03:00  INFO 12812 --- [Sistema-GE] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 474 ms
+2024-12-05T12:48:08.067-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-12-05T12:48:08.069-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-12-05T12:48:08.072-03:00 DEBUG 12812 --- [Sistema-GE] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:48:46.214-03:00  INFO 12812 --- [Sistema-GE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 23 class path changes (0 additions, 23 deletions, 0 modifications)
+2024-12-05T12:48:46.242-03:00  INFO 12812 --- [Sistema-GE] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:48:46.250-03:00  INFO 12812 --- [Sistema-GE] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05T12:48:46.271-03:00  INFO 12812 --- [Sistema-GE] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05T12:48:46.498-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Starting SistemaGEApplication using Java 22.0.2 with PID 12812 (C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\target\classes started by Julio in C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE)
+2024-12-05T12:48:46.503-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-05T12:48:47.256-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05T12:48:47.281-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-12-05T12:48:47.565-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-05T12:48:47.567-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05T12:48:47.567-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05T12:48:47.624-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05T12:48:47.625-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2024-12-05T12:48:47.705-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-05T12:48:47.712-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-05T12:48:47.737-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-05T12:48:47.739-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-05T12:48:47.813-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eb58a09
+2024-12-05T12:48:47.814-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-05T12:48:47.819-03:00  WARN 12812 --- [Sistema-GE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-05T12:48:47.920-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-05T12:48:47.944-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:48:48.154-03:00  WARN 12812 --- [Sistema-GE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05T12:48:48.237-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-12-05T12:48:48.304-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-05T12:48:48.323-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-05T12:48:48.336-03:00 DEBUG 12812 --- [Sistema-GE] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-05T12:48:48.471-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-05T12:48:48.485-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-05T12:48:48.496-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Started SistemaGEApplication in 2.093 seconds (process running for 108.496)
+2024-12-05T12:48:48.503-03:00  INFO 12812 --- [Sistema-GE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-05T12:49:28.057-03:00  INFO 12812 --- [Sistema-GE] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:49:28.058-03:00  INFO 12812 --- [Sistema-GE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-05T12:49:28.077-03:00  INFO 12812 --- [Sistema-GE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-12-05T12:49:36.176-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Starting SistemaGEApplication using Java 22.0.2 with PID 12856 (C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\target\classes started by Julio in C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE)
+2024-12-05T12:49:36.185-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-05T12:49:36.318-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-05T12:49:36.318-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-05T12:49:38.530-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05T12:49:38.671-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2024-12-05T12:49:40.308-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-05T12:49:40.345-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05T12:49:40.346-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05T12:49:40.466-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05T12:49:40.467-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4147 ms
+2024-12-05T12:49:40.859-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-05T12:49:41.019-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-05T12:49:41.097-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-05T12:49:41.711-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-05T12:49:41.761-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05T12:49:42.357-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57fd116e
+2024-12-05T12:49:42.361-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05T12:49:42.458-03:00  WARN 12856 --- [Sistema-GE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-05T12:49:44.048-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-05T12:49:44.147-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:49:44.974-03:00  WARN 12856 --- [Sistema-GE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05T12:49:45.258-03:00 DEBUG 12856 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-12-05T12:49:45.471-03:00 DEBUG 12856 --- [Sistema-GE] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-05T12:49:45.573-03:00 DEBUG 12856 --- [Sistema-GE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-05T12:49:45.668-03:00 DEBUG 12856 --- [Sistema-GE] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-05T12:49:46.049-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-05T12:49:46.121-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-05T12:49:46.148-03:00  INFO 12856 --- [Sistema-GE] [restartedMain] o.e.Sistema.GE.SistemaGEApplication      : Started SistemaGEApplication in 11.245 seconds (process running for 12.5)
+2024-12-05T12:52:17.673-03:00  INFO 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05T12:52:17.674-03:00  INFO 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05T12:52:17.674-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-12-05T12:52:17.675-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-12-05T12:52:17.675-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-12-05T12:52:17.676-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3b04505
+2024-12-05T12:52:17.677-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4267a054
+2024-12-05T12:52:17.678-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-05T12:52:17.678-03:00  INFO 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-05T12:52:17.694-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-12-05T12:52:17.709-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:52:17.750-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-12-05T12:52:17.803-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-12-05T12:52:17.805-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:52:17.915-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:52:18.100-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-12-05T12:52:18.105-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-12-05T12:52:18.106-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png", parameters={}
+2024-12-05T12:52:18.107-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-05T12:52:18.116-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:52:18.148-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-12-05T12:52:18.152-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://127.0.0.1:8080/swagger-ui/oauth2-re (truncated)...]
+2024-12-05T12:52:18.163-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:52:18.183-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-12-05T12:52:18.184-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-12-05T12:52:18.654-03:00  INFO 12856 --- [Sistema-GE] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 439 ms
+2024-12-05T12:52:18.723-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-12-05T12:52:18.726-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-12-05T12:52:18.728-03:00 DEBUG 12856 --- [Sistema-GE] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-05T12:55:47.764-03:00  INFO 12856 --- [Sistema-GE] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T12:55:47.772-03:00  INFO 12856 --- [Sistema-GE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05T12:55:47.796-03:00  INFO 12856 --- [Sistema-GE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
